@@ -1,0 +1,4 @@
+fetch page success
+Parse start
+008000
+{'chineseName': u'\u6d3b\u529b\u6839\u987b', 'rarity': '008000'}

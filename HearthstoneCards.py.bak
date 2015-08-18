@@ -94,7 +94,7 @@ if __name__=="__main__":
     cardSet = []
     #fillCardInfo(spider.content.readlines(),cardSet)
     
-    while spider.getNextPage() != '' and pageNum <= TOTAL_PAGE_NUM:
+    while spider.getNextPage() != '' and pageNum < TOTAL_PAGE_NUM:
         spider.getContent()
         pageNum += 1
     
